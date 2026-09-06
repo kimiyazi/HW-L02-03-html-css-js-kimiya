@@ -1,0 +1,29 @@
+*{
+    box-sizing: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#display{
+    width: 97%;
+    height: 50px;
+    border: 1px solid #ccc;
+}
+
+
+.btns{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    justify-content: center;
+    align-items: center;
+}
+
+.btns button{
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: rgb(195, 252, 233);
+}
